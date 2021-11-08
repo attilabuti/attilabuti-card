@@ -1,0 +1,32 @@
+{
+	"name": "attilabuti",
+	"version": "1.0.0",
+	"description": "My personal calling card.",
+	"main": "./bin/card.js",
+	"bin": {
+		"attilabuti": "./bin/card.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/attilabuti/attilabuti-card.git"
+	},
+	"homepage": "https://attilabuti.com",
+	"scripts": {
+		"build": "node build.js",
+		"dev": "npm run build && node ./bin/card.js"
+	},
+	"keywords": [
+		"Attila",
+		"Buti"
+	],
+	"author": "Attila Buti <hello@attilabuti.com> (https://attilabuti.com)",
+	"license": "MIT",
+	"files": [
+		"bin/card.js",
+		"bin/output"
+	],
+	"devDependencies": {
+		"boxen": "^5.0.1",
+		"chalk": "^4.1.0"
+	}
+}
